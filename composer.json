@@ -1,0 +1,11 @@
+{
+    "name": "billowapp/show-me-the-money",
+    "description": "Super simple money class for laravel and we mean simple.",
+    "authors": [
+        {
+            "name": "Warren Hansen",
+            "email": "warren@billow.co.za"
+        }
+    ],
+    "require": {}
+}
