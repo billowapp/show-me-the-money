@@ -7,5 +7,7 @@
             "email": "warren@billow.co.za"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/support": "^5.3"
+    }
 }

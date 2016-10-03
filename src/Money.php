@@ -48,18 +48,6 @@ class Money
 		return money_format($this->currency_symbol.' %i', $this->convertedAmount());
 	}
 	
-	public function add(int $amount)
-    {
-        $value = $this->amount + $amount;
-        return $this->newMoney($value);
-    }
-
-    public function subtract(Money $other)
-    {
-        $value = $this->amount - $amount;
-        return $this->newMoney($value);
-    }
-
     public function newMoney(int $amount)
     {
     	return new static($amount);
