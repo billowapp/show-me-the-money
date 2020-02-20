@@ -1,18 +1,19 @@
 {
-    "name": "billowapp/show-me-the-money",
-    "description": "Super simple money class for laravel and we mean simple.",
-    "authors": [
-        {
-            "name": "Warren Hansen",
-            "email": "warren@billow.co.za"
-        }
-    ],
-    "require": {
-        "illuminate/support": "^5.2|6.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "Billow\\Utilities\\": "src/"
-        }
+  "name": "billowapp/show-me-the-money",
+  "description": "Super simple money class for laravel and we mean simple.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Warren Hansen",
+      "email": "warren@billow.co.za"
     }
+  ],
+  "require": {
+    "illuminate/support": "^5.2|^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Billow\\Utilities\\": "src/"
+    }
+  }
 }
