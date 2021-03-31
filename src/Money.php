@@ -25,7 +25,7 @@ class Money
   public function fromString($amount = 0)
   {
     return new static(intval(
-      round($this->sub_unit * round((string) $amount, $this->default_fraction_digits, PHP_ROUND_HALF_UP), 0, PHP_ROUND_HALF_UP)
+      round($this->sub_unit * round((float) $amount, $this->default_fraction_digits, PHP_ROUND_HALF_UP), 0, PHP_ROUND_HALF_UP)
     ));
   }
 
